@@ -1,0 +1,82 @@
+/*
+ * 基础架构 
+*/
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; 
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * 页头 
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+}
+
+@media {
+  .masthead-brand {
+    float: left;
+		font-size: 30px;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * 正文 
+ */
+
+.cover {
+  padding: 0 20px;
+}
+
+/*
+ * 页脚  
+ */
+
+.mastfoot {
+  color: #999;
+	text-align: center; 
+}
