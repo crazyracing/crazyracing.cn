@@ -25,10 +25,29 @@
           </div>
 
           <div class="inner cover">
-            <p class="lead">
-						广州峰动商贸有限公司
-						</p>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+              </ol>
+            <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="static/image/bg-1.jpg" alt="First slide [1140x500]" data-holder-rendered="true">
+            </div>
+            <div class="item">
+              <img src="static/image/bg-2.jpg" alt="First slide [1140x500]" data-holder-rendered="true">
+            </div>
+            <div class="item">
+              <img src="static/image/bg-3.jpg" alt="First slide [1140x500]" data-holder-rendered="true">
+            </div>
+            <div class="item">
+              <img src="static/image/bg-4.jpg" alt="First slide [1140x500]" data-holder-rendered="true">
+            </div>
+            </div>
+            </div>
           </div>
+
 
           <div class="mastfoot">
             <div class="inner">
